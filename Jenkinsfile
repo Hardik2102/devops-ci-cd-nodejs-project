@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Clone Repo') {
       steps {
-        git 'https://github.com/<your-username>/devops-ci-cd-nodejs-project.git'
+        git 'https://github.com/Hardik2102/devops-ci-cd-nodejs-project.git'
       }
     }
 
